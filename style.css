@@ -20,7 +20,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: ;
+    background-color: #FF69B4;
 
 }
 .cartao-imagem{
@@ -45,5 +45,11 @@ main{
     position: absolute;
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0,0,0.15);
+    backface-visibility: hidden;
 
+}
+
+.cartao-verso{
+
+    transform: rotateY(180deg);
 }
